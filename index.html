@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Weather</title>
+    <link rel="icon" href="img/icon1.jpg">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <nav id="navbar-example" class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <div class="logo rounded-5"><img src="img/logo2.jpg" class="w-100 h-100 rounded-5"></div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link p-0 active fw-bold" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 fw-bold" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 fw-bold" href="#LiveCameras">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 fw-bold" href="#photos">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 fw-bold" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="position-relative pb-5">
+        <div class="layer"></div>
+        <div class="container pt-1 pb-5">
+            <input type="search" placeholder="Search..."
+                class="search form-control mt-5 rounded-pill bg-secondary-subtle mb-5">
+
+            <div class="row gy-5 pb-lg-5">
+
+            </div>
+        </div>
+    </header>
+
+    <section id="contact" class="bg-body-tertiary py-5">
+        <h2 class="text-center text-black display-5 fw-semibold mb-4">Contact us</h2>
+
+        <div class="container p-5">
+            <div class="row gy-5">
+                <div class="col-lg-6">
+                    <div>
+                        <label for="email" class="form-label">Email:</label>
+                        <input id="email" type="email" class="form-control mb-4 bg-secondary-subtle bg-opacity-25"
+                            placeholder="Enter your email">
+
+                        <label for="phone" class="form-label">Phone number:</label>
+                        <input id="phone" type="number" class="form-control mb-4 bg-secondary-subtle bg-opacity-25"
+                            placeholder="Enter your phone number">
+
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" type="text" class="form-control mb-4 bg-secondary-subtle bg-opacity-25"
+                            rows="5" placeholder="Enter your message"></textarea>
+
+
+                        <button class="btn btn-primary">Contact us</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="w-100 h-100">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.9993688857826!2d31.327234024608362!3d30.065552574912886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fccc4e5bfc5%3A0xc551dcd71cfb036c!2sRoute%20Academy!5e0!3m2!1sar!2seg!4v1704124819204!5m2!1sar!2seg"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
